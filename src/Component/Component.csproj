@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RazorLangVersion>3.0</RazorLangVersion>
+    <AssemblyName>Skclusive.Mobx.Component</AssemblyName>
+    <PackageId>Skclusive.Mobx.Component</PackageId>
+    <RootNamespace>Skclusive.Mobx.Component</RootNamespace>
+    <Authors>Skclusive</Authors>
+    <Company>Skclusive</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components" Version="3.1.0-preview2.19528.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="3.1.0-preview2.19528.8" />
+    <PackageReference Include="Skclusive.Mobx.Observable" Version="1.0.0" />
+  </ItemGroup>
+</Project>
+
