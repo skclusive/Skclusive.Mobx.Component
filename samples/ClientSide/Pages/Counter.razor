@@ -1,21 +1,7 @@
 ﻿@page "/counter"
 
-@using Skclusive.Mobx.Component
-@using Skclusive.Mobx.Observable
+<RegularCounter />
 
-@inherits ObservableComponentBase
+<PureCounter />
 
-<h1>Observable Counter</h1>
-
-<p>Current count: @currentCount.Value</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
-@code {
-    private IObservableValue<int> currentCount = ObservableValue<int>.From(0);
-
-    private void IncrementCount()
-    {
-        currentCount.Value++;
-    }
-}
+<ObserverCounter />

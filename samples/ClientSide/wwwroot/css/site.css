@@ -181,3 +181,28 @@ app {
         display: block;
     }
 }
+
+.highlight {
+    margin: 20px;
+    border-width: 1px;
+    border-style: dashed;
+    padding: 20px;
+}
+
+@keyframes odd-fade {
+    0% {background: yellow;}
+    100% {background: none;}
+ }
+
+ .highlight-odd {
+    animation: odd-fade 2s ease-in 1;
+ }
+
+ @keyframes even-fade {
+    0% {background: green;}
+    100% {background: none;}
+ }
+
+ .highlight-even {
+    animation: even-fade 2s ease-in 1;
+ }
