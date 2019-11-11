@@ -60,7 +60,7 @@ Components with Skclusive.Mobx.Observable values can be created and used in as b
 
 ## Credits
 
-This is a attempt to port [mobx](https://github.com/mobxjs/mobx) and [mobx-react](https://github.com/mobxjs/mobx-react) to Blazor.
+This is an attempt to port [mobx](https://github.com/mobxjs/mobx) and [mobx-react](https://github.com/mobxjs/mobx-react) to Blazor.
 
 ## License
 
