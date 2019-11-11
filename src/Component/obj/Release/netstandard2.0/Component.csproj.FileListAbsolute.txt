@@ -1,0 +1,11 @@
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/bin/Release/netstandard2.0/Skclusive.Mobx.Component.deps.json
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/bin/Release/netstandard2.0/Skclusive.Mobx.Component.dll
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/bin/Release/netstandard2.0/Skclusive.Mobx.Component.pdb
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/obj/Release/netstandard2.0/Component.csprojAssemblyReference.cache
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/obj/Release/netstandard2.0/staticwebassets/Skclusive.Mobx.Component.StaticWebAssets.Manifest.cache
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/obj/Release/netstandard2.0/staticwebassets/Skclusive.Mobx.Component.StaticWebAssets.xml
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/obj/Release/netstandard2.0/Component.AssemblyInfoInputs.cache
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/obj/Release/netstandard2.0/Component.AssemblyInfo.cs
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/obj/Release/netstandard2.0/Component.RazorTargetAssemblyInfo.cache
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/obj/Release/netstandard2.0/Skclusive.Mobx.Component.dll
+/Users/senthilnathansk/Desktop/github/Skclusive.Mobx.Component/src/Component/obj/Release/netstandard2.0/Skclusive.Mobx.Component.pdb
