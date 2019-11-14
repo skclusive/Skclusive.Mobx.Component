@@ -25,6 +25,8 @@ console log, a network call to re-rendering the UI.
 
 The ClientSide sample project has been published [here](https://skclusive.github.io/Skclusive.Mobx.Component/).
 
+![Observable Counter in action](images/counter.gif)
+
 ### Installation
 
 Add a reference to the library from [![NuGet](https://img.shields.io/nuget/v/Skclusive.Mobx.Component.svg)](https://www.nuget.org/packages/Skclusive.Mobx.Component/)
