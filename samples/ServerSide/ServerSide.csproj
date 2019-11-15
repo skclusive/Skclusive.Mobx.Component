@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Skclusive.Mobx.Component" Version="1.0.1" />
+    <PackageReference Include="Skclusive.Mobx.Component" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
