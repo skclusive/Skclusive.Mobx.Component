@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.AspNetCore.Components;
+using Skclusive.Core.Component;
 using Skclusive.Mobx.Observable;
 
 namespace Skclusive.Mobx.Component
