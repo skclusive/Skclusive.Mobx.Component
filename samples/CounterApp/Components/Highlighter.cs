@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
 using Skclusive.Core.Component;
 
-namespace ClientSide.Components
+namespace CounterApp.Components
 {
     public class Highlighter : PureComponentBase
     {

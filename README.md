@@ -23,7 +23,7 @@ console log, a network call to re-rendering the UI.
 
 ## Sample
 
-The ClientSide sample project has been published [here](https://skclusive.github.io/Skclusive.Mobx.Component/).
+The CounterApp sample project has been published [here](https://skclusive.github.io/Skclusive.Mobx.Component/).
 
 ![Observable Counter in action](images/counter.gif)
 
