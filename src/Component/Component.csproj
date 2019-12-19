@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <VersionPrefix>1.0.6</VersionPrefix>
+    <VersionPrefix>1.0.7</VersionPrefix>
     <VersionSuffix>$(VersionSuffix)</VersionSuffix>
     <TargetFramework>netstandard2.1</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
@@ -10,12 +10,16 @@
     <RootNamespace>Skclusive.Mobx.Component</RootNamespace>
     <Authors>Skclusive</Authors>
     <Company>Skclusive</Company>
+    <Copyright>Skclusive</Copyright>
+    <PackageTags>blazor mobx components</PackageTags>
+    <PackageProjectUrl>https://github.com/skclusive/Skclusive.Mobx.Component</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/skclusive/Skclusive.Mobx.Component</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components" Version="3.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="3.1.0" />
-    <PackageReference Include="Skclusive.Core.Component" Version="1.0.4" />
+    <PackageReference Include="Skclusive.Core.Component" Version="1.0.6" />
     <PackageReference Include="Skclusive.Mobx.Observable" Version="1.0.4" />
   </ItemGroup>
 </Project>
