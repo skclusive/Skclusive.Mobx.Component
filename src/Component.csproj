@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <VersionPrefix>3.0.1-preview1</VersionPrefix>
+    <VersionPrefix>3.0.0-preview2</VersionPrefix>
     <VersionSuffix>$(VersionSuffix)</VersionSuffix>
     <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>Skclusive.Mobx.Component</AssemblyName>
@@ -16,12 +16,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Skclusive.Core.Component" Version="3.0.1-preview1" />
-    <PackageReference Include="Skclusive.Mobx.Observable" Version="1.0.4" />
+    <!-- <PackageReference Include="Skclusive.Core.Component" Version="3.0.0-preview2" /> -->
+    <!-- <PackageReference Include="Skclusive.Mobx.Observable" Version="3.0.0-preview2" /> -->
   </ItemGroup>
 
-  <!-- <ItemGroup>
-    <ProjectReference Include="..\..\..\Skclusive.Core.Component\src\Component.csproj" Version="3.0.1-preview1" />
-  </ItemGroup> -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\Skclusive.Mobx.Observable\src\Observable.csproj" Version="3.0.0-preview2" />
+    <ProjectReference Include="..\..\Skclusive.Core.Component\src\Component.csproj" Version="3.0.0-preview2" />
+  </ItemGroup>
 
 </Project>

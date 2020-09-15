@@ -1,12 +1,13 @@
 ﻿@using Skclusive.Core.Component
 @using Skclusive.Mobx.Component
+@using Skclusive.Mobx.Observable
 
 @inherits PureComponentBase
 
 <Highlighter>
-    <h1>Pure Counter</h1>
+    <h1>Mobx Counter</h1>
     <Count>
-        <p>Counter count: @currentCount</p>
+        <p>Counter count: @currentCount.Value</p>
     </Count>
     <button class="btn btn-primary" @onclick="IncrementCount">
         Click me
@@ -15,12 +16,10 @@
 
 @code {
 
-    private int currentCount = 0;
+    private IObservableValue<int> currentCount = ObservableValue<int>.From(0);
 
     private void IncrementCount()
     {
-        currentCount++;
-
-        StateHasChanged();
+        currentCount.Value++;
     }
 }

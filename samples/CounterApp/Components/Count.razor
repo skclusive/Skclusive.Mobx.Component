@@ -1,0 +1,12 @@
+@using Skclusive.Core.Component
+@inherits PureComponentBase
+
+<strong>
+@ChildContent
+</strong>
+
+@code
+{
+    [Parameter]
+    public RenderFragment ChildContent { set; get; }
+}
