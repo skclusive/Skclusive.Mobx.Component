@@ -14,9 +14,9 @@ namespace Skclusive.Mobx.Component
             {
                 _ = renderer();
             },
-            (_1, _2) =>
+            (ex, _) =>
             {
-                throw new Exception("Observable component exception");
+                throw new Exception("Observable component exception", ex);
             });
 
             RenderFragment newRenderFragment = builder =>
