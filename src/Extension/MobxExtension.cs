@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using Skclusive.Extensions.DependencyInjection;
 using Skclusive.Core.Component;
 
 namespace Skclusive.Mobx.Component
