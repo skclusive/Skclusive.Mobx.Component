@@ -5,7 +5,7 @@ using Skclusive.Mobx.Observable;
 
 namespace Skclusive.Mobx.Component
 {
-    public class ObservableComponentBase : PureComponentBase, IDisposable
+    public class ObservableComponentBase : PureComponentBase
     {
         private Reaction _reaction;
 
@@ -15,7 +15,7 @@ namespace Skclusive.Mobx.Component
         {
             _reaction = new Reaction("Observable", (_1) =>
             {
-                StateHasChanged();
+                _ = InvokeAsync(StateHasChanged);
             },
             (_1, _2) =>
             {
@@ -39,17 +39,11 @@ namespace Skclusive.Mobx.Component
             };
         }
 
-        protected virtual void Dispose()
-        {
-        }
-
-        void IDisposable.Dispose()
+        protected override void Dispose()
         {
             _reaction?.Dispose();
 
             _reaction = null;
-
-            Dispose();
         }
     }
 }

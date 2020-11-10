@@ -4,6 +4,9 @@ using System.Threading.Tasks;
 using System.Text;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using System.Net.Http;
+using Skclusive.Core.Component;
+using Skclusive.Mobx.Component;
 
 namespace CounterApp
 {
@@ -15,7 +18,9 @@ namespace CounterApp
 
             builder.RootComponents.Add<App>("app");
 
-            builder.Services.AddBaseAddressHttpClient();
+            builder.Services.AddSingleton(new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+
+            builder.Services.TryAddMobxServices(new CoreConfigBuilder().Build());
 
             await builder.Build().RunAsync();
         }

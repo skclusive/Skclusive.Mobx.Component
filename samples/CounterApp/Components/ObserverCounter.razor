@@ -6,7 +6,9 @@
 
 <Highlighter>
     <h1>Observable Counter</h1>
-    <p>Current count: <Observable>@currentCount.Value</Observable></p>
+    <Count>
+        <p>Counter count: <Observable>@currentCount.Value</Observable></p>
+    </Count>
     <button class="btn btn-primary" @onclick="IncrementCount">
         Click me
     </button>

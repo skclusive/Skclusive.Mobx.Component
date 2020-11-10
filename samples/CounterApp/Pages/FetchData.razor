@@ -1,4 +1,6 @@
 ﻿@page "/fetchdata"
+@using System.Net.Http.Json
+@using System.Net.Http
 @inject HttpClient Http
 
 <h1>Weather forecast</h1>
@@ -37,9 +39,11 @@ else
 @code {
     private WeatherForecast[] forecasts;
 
-    protected override async Task OnInitializedAsync()
+    protected override Task OnInitializedAsync()
     {
-        forecasts = await Http.GetJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        forecasts = new WeatherForecast[] {}; //await Http.GetJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+
+        return Task.CompletedTask;
     }
 
     public class WeatherForecast
