@@ -20,7 +20,7 @@ namespace CounterApp
 
             builder.Services.AddSingleton(new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-            builder.Services.TryAddMobxServices(new CoreConfigBuilder().Build());
+            builder.Services.TryAddMobxServices(new CoreConfigBuilder().WithDisableBinding(true).Build());
 
             await builder.Build().RunAsync();
         }
